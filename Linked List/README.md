@@ -7,22 +7,28 @@ The functions implemented are:
 linkedString() //Default Constructor
 
 linkedString(const string& str) //Copy Constructor
-This implements copy constructor, whenever String type str is passed in, it created the linked list of that content.
+This implements copy constructor, whenever String type str is passed in, it 
+created the linked list of that content.
 
 linkedString(const linkedString& str) //overlaoded Constructor
-When one linkedString of type linkedString is passed in argument while initialization, it creates the linked list of that content.
+When one linkedString of type linkedString is passed in argument while initialization, 
+it creates the linked list of that content.
+
 For example:
 If I have:
 .......
 linkedString str1 = "My string";
+
 Then:
+
 linkedString str2(str1); <-- Here overloaded constructor is called.
 
 const linkedString& operator=(const linkedString& str) //Assignemnt Operator
 This overloads the std::Assignment operator(=) for this particular class aka linkedString.
 
 linkedString operator+(const linkedString& str) //Addistion Operator
-This operator concatenates the two strings and returns the new string which contains contents of both this.linkedString and Object of linkedString str.
+This operator concatenates the two strings and returns the new string which contains contents of 
+both this.linkedString and Object of linkedString str.
  
 friend ostream& operator << (ostream & out, const linkedString& str) // cout Operator overaloaded
 This is overloaded operator for printing the string.
@@ -55,5 +61,7 @@ linkedString findAndCut(const string& str)
 //TODO
  
 void findAndReplace (const string& str1, const string& str2); // TODO
+
 void findAndInsertAfter(const string& ,const string&); // TODO
+
 void findAndInvert(const string&); // TODO
