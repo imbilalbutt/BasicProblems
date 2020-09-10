@@ -1,9 +1,6 @@
-//
-//  hw4_L15-4208.cpp
-//  hw4_L15-4208
-//
 //  Created by Bilal Butt on 04/10/2017.
 //  Copyright © 2017 Bilal Butt. All rights reserved.
+//
 // GitHub: https://github.com/imbilalbutt
 //
 
