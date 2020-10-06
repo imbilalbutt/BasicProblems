@@ -1,6 +1,10 @@
-# Find all the pairs of Array such that A[i] - A[j] = 1 in O(n).
+# Find all the pairs of Array such that A[p] - A[q] = 1 in O(n).
+#
+# Author: Bilal Ahmad Butt
+# GitHub: http://github.com/imbilalbutt 
+#
 
-def pair_Difference_Equal_To_One(A):
+def Pair_Difference_Equal_To_One(A):
     # write your code in Python 3.6
     if (len(A)==0 or len(A)==1):
         return False
@@ -39,4 +43,4 @@ def pair_Difference_Equal_To_One(A):
     
 if __name__ == "__main__":
     A = [4,10,8,5,9]
-    solution(A)
+    Pair_Difference_Equal_To_One(A)
