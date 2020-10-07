@@ -5,7 +5,7 @@
 //
 
 /*
- // Property: Each root node contains: left child and right child.
+ Property: Each root node contains: left child and right child.
  Left Child: contain sall numbers (while considering each node in mind)
  Right Child: contain large numbers/ keys
  */
