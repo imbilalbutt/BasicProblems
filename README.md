@@ -1,4 +1,6 @@
-# BasicProblems
+# Basic Interview Problems and their Solutions
+
+
 This repository is the implementation of basic data structures and various  basic coding problems which are asked in interviews or asked in HackerRank problems.
 
 I have tool the liberty to code the problems in any language. Specifically I have used Python, C++ and Java in order to solve the problems.
