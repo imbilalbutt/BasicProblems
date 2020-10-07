@@ -9,7 +9,12 @@ def Pair_Sum_Equal_To_Key(A, key):
         return False
     
     if(len(A)==2):
-        if(A[0]-A[1]==1):
+        if(abs(A[0]+A[1])==key):
+            tup = (A[0], A[1])
+            lst = list()
+            lst.append(tup)
+            
+            print(lst)
             return True
         else: return False
         
